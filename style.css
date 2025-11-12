@@ -1,0 +1,121 @@
+/* Genel Ayarlar */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Üst Kısım */
+header .banner {
+    background-color: #ffcc66;  /* Sıcak ve uyumlu bir ton */
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header .banner h1 {
+    margin-bottom: 10px;
+}
+
+header .banner button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Menü */
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* İçerik Düzeni */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.icerik {
+    width: 65%;
+}
+
+.icerik article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.icerik ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.icerik li {
+    background-color: #ffe8b3;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+/* Yan Menü */
+aside {
+    width: 30%;
+}
+
+aside div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+aside img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Alt Kısım */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+/* Mobil Uyum */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icerik, aside {
+        width: 100%;
+    }
+}
