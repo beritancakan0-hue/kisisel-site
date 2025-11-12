@@ -1,2 +1,1 @@
-# kisisel-site
-html ve css kodlarının içerdiği kişisel bi ve site
+Header,main,aside,footer gibi kısımlardan oluşmuştur.
